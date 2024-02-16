@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js' integrity='sha512-+k1pnlgt4F1H8L7t3z95o3/KO+o78INEcXTbnoJQ/F2VqDVhWoaiVml/OEHv9HsVgxUaVW+IbiZPUJQfF/YxZw==' crossorigin='anonymous'></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.js' integrity='sha512-BK9PHgiHWfibD1gZHjigMVxh6wMAFhiGa8FV3mYdGIHO7QJWlP/Uy2kTw3ykOLd9OtSJyPSqPNKIRiSmAFw6UA==' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+
+    <div class="cartPopup">
+        <div class="cartPopupContainer"></div>
+        <input type="text" placeholder="Name" id="username">
+        <input type="text" placeholder="Phone" id="phone">
+        <button id="confirmBtn">Confirm</button>
+    </div>
+
+    <div class="wrap">
+        <div class="logoconteiner">
+        <header>
+            <div class="logoleft">
+                <div class="buttonmenu">  <i class="fa-solid fa-burger fa-rotate-180 fa-xl" style="color: #1e3050;"></i>
+                     <h4>Menu</h4></div>
+               <div class="searchconteiner"> <i class="fa-solid fa-magnifying-glass fa-rotate-90 fa-xl"></i><input class="search" type="text" placeholder="Search"></div>
+        </div>
+        <div class="logocenter">
+            <div class="logo"><img src="./img/Group 322341.png" alt="1"></div>
+        </div>
+        <div class="logoright">
+            <div class="logorightleft">
+                <i class="fa-regular fa-user fa-xl"></i>
+                <i class="fa-regular fa-heart fa-xl"></i>
+                <i class="fa-solid fa-cart-shopping fa-xl" id="cart"></i> <div class="numberofpurchases" id="carts">0</div>
+                
+            </div>
+            <div class="logorightright">
+                
+            </div>
+        </div>
+        </header>
+    </div>
+   
+
+ <div class="slider">
+    <div class="card1">
+
+    </div>
+    <button class="arrow">
+        <i class="fa-solid fa-arrow-left fa-xl"></i>
+    </button>
+    <div class="card2">
+        
+<div class="cardleft">
+<h2>Are you ready to</h2><br>
+<h3>lead the way</h3><br>
+<p>Luxury meets ultimate sitting comfort</p>
+<button>
+    Discover <i class="fa-solid fa-arrow-right fa-lg" style="color: #D0AD37;"></i>
+</button>
+</div>
+<div class="cardright">
+<img src="./img/Group 320262.png" alt="2">
+</div>
+    </div>
+    <button class="arrow">
+        <i class="fa-solid fa-arrow-right fa-xl"></i>
+    </button>
+    <div class="card3">
+        
+    </div>
+ </div>
+     
+     
+
+
+
+
+        <div class="productContainer">
+
+        </div>
+    
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
